@@ -29,8 +29,8 @@ def process_event(event):
         dump_events_in_csv(processed_events)
         processed_events.clear()
         current_batch_size = 0
-
-
+        
+        
 def dump_events_in_csv(events_processed):
     """
     Description: Function to export/append parsed events into csv.
